@@ -15,4 +15,4 @@ The setup of Azure blob data container and snowflake enterprise environment in e
 https://quickstarts.snowflake.com/guide/attaining_consumer_insights_with_snowflake_and_microsoft_power_bi
 
 #### POINTER:
-The file "Snowflake_Worksheet.sql" describes how the schemas are Warehouse and schemas are created, how the data is populated into the snowflake envirnment and finally creation of views reqired for data visualization.
+The file "Migrating_Data_to_Azure_Cloud_Platform.sql" provides a detailed explonation of how an Azure storage container is created and how the data is populated using Azure cloud shell.
