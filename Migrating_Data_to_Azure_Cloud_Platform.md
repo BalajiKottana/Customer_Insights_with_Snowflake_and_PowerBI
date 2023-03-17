@@ -65,4 +65,4 @@ Download this file to load the script file into Azure cloud shell and run.
 https://raw.githubusercontent.com/sfc-gh-ccollier/sfquickstart-samples/main/samples/snowflake-powerbi-retail-vhol/scripts/lab-snowflake-powerbi-load-to-azure-blob.sh
 
 #### POINTER:
-The file "Snowflake_Worksheet.sql" describes how the schemas are Warehouse and schemas are created, how the data is populated into the snowflake envirnment and finally creation of views reqired for data visualization.
+The file "Snowflake_Architecutre_and_Best_Practices.md" briefly describes about snowflake architecture, user interface, data lifecycle and best practices followed in the project.
