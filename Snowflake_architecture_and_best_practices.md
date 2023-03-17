@@ -29,11 +29,11 @@ in turn belongs to a database.
 
 ### Best Practices
 In this project,I have followed some of the best practices suggested by snowflake. 
-1. Create saperate warehouse such as ELT_WH (for data loading from Azure data store which was created earlier) and POWERBI_WH (for interaction with visualization tools)
- by this saperation we can prallelly access the data as well as perform data ingestion. In conventional warehouses this operations are often performed in interleaved fashion.
-2. Create saperate roles and users, and map approrpiate roles to users.
-3. Dynamically resize the warehouse as per requirement with an execution of a single command. This practice modulates the cost as per usage of the warehouse. 
-4. Clean all the resources at the end of the data-cycle.
+1. Create saperate warehouse such as ELT_WH (for data loading from Azure data store which was created earlier) and POWERBI_WH (for interaction with visualization tools)  by this saperation we can prallelly access the data as well as perform data ingestion. In conventional warehouses this operations are often performed in interleaved fashion.
+2. Create a Stage environment and load the data from stage to production instead of directly loading the data to production environment. 
+3. Create saperate roles and users, and map approrpiate roles to users.
+4. Dynamically resize the warehouse as per requirement with an execution of a single command. This practice modulates the cost as per usage of the warehouse. 
+5. Clean all the resources at the end of the data-cycle.
 
 ##### Prerequisites:
 To explore in detailed about snowflake, please refer to the following URL:  
