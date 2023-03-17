@@ -35,11 +35,9 @@ In this project,I have followed some of the best practices suggested by snowflak
 3. Dynamically resize the warehouse as per requirement with an execution of a single command. This practice modulates the cost as per usage of the warehouse. 
 4. Clean all the resources at the end of the data-cycle.
 
-#### POINTER:
-The file "Worksheet.sql"
-
-
-
 ##### Prerequisites:
 To explore in detailed about snowflake, please refer to the following URL:  
 https://docs.snowflake.com/en/user-guide/intro-key-concepts
+
+#### POINTER:
+The file "Snowflake_Worksheet.sql" describes how the schemas are Warehouse and schemas are created, how the data is populated into the snowflake envirnment and finally creation of views reqired for data visualization.
