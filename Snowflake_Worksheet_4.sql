@@ -40,7 +40,7 @@ create view sales_orders_v comment='Sales_Order_View' as
  
  /*
  Pointer:
- After this point we will connect Snowflake Cloud to PowerBI desktop, please nvaigate to Integration_with_Power_BI.md file.
+ After this point we will connect Snowflake Cloud to PowerBI desktop, please nvaigate to Snowflake_integration_with_Power_BI.md file.
  */ 
  
  
