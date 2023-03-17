@@ -6,10 +6,13 @@ Going in detailed, this project will walk through the steps to Create staging en
 using Snowflake account engineer and model data. Optinally for BI consumption, connect Snowflake account to PowerBI to author reports, vizualize data and perform optimization 
 techniques to speedup reports/dashboards responsiveness.
 
-Prerequisites:
+#### Prerequisites:
 1. Use Snowflake free 30-day trail enterprise environment.
 2. Access to Azure account with the ability to launch a Azure Cloud Shell, and create an Azure Storage Container. The data is loaded from this container to snowflake warehouse.
 3. Having installed Azure Storage Explorer, PowerBI and DAX Studio.
 
 The setup of Azure blob data container and snowflake enterprise environment in explained in detailed in the following url 
 https://quickstarts.snowflake.com/guide/attaining_consumer_insights_with_snowflake_and_microsoft_power_bi
+
+#### POINTER:
+The file "Snowflake_Worksheet.sql" describes how the schemas are Warehouse and schemas are created, how the data is populated into the snowflake envirnment and finally creation of views reqired for data visualization.
