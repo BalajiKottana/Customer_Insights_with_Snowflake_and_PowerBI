@@ -60,7 +60,9 @@ You should now see the files that were loaded into the storage account
 
 
 
-Prerequisite:
+#### Prerequisite:
 Download this file to load the script file into Azure cloud shell and run.
 https://raw.githubusercontent.com/sfc-gh-ccollier/sfquickstart-samples/main/samples/snowflake-powerbi-retail-vhol/scripts/lab-snowflake-powerbi-load-to-azure-blob.sh
 
+#### POINTER:
+The file "Snowflake_Worksheet.sql" describes how the schemas are Warehouse and schemas are created, how the data is populated into the snowflake envirnment and finally creation of views reqired for data visualization.
