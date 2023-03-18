@@ -9,7 +9,7 @@ techniques to speedup reports/dashboards responsiveness.
 #### Prerequisites:
 1. Use Snowflake free 30-day trail enterprise environment.
 2. Access to Azure account with the ability to launch a Azure Cloud Shell, and create an Azure Storage Container. The data is loaded from this container to snowflake warehouse.
-3. Having installed Azure Storage Explorer, PowerBI and DAX Studio.
+3. Having installed Azure Storage Explorer, PowerBI.
 
 The setup of Azure blob data container and snowflake enterprise environment in explained in detailed in the following url 
 https://quickstarts.snowflake.com/guide/attaining_consumer_insights_with_snowflake_and_microsoft_power_bi
