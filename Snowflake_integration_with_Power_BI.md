@@ -17,4 +17,4 @@ Click on DirectQuery radio button and click ok
 ![image](https://user-images.githubusercontent.com/122858293/226087104-462fd31a-125f-45ed-883a-8d5e4174578c.png)
 
 #### Pointer:
-For getting insights navagate to "Visualization.md" file
+For getting insights navagate to "Visualization_in_PowerBI.md" file
