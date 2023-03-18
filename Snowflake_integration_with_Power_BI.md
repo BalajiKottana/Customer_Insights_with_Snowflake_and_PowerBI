@@ -1,5 +1,7 @@
 # Snowflake Integration with PowerBI
 
+In this page it is assumed that the database, schema and tables are created and data is populated. 
+
 To integrate Snowflake with PowerBI, open PowerBI Desktop and click on get data, opt for Snowflake, enter snowflake server location and warehouse name, in our case warehouse will be POWERBI_WH which was created to when the data is populated.
 
 ![image](https://user-images.githubusercontent.com/122858293/226086559-78c502bc-2d05-4e73-8ab4-64134b675342.png)
