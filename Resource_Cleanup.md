@@ -6,13 +6,19 @@ Execute the following SQL commands in the snowflake worksheet.
 
 
 /* ---------------------------------------------------------------------------
+
    Clean up and Reset dropping warehouses and objects
+
 ----------------------------------------------------------------------------*/
 
 USE ROLE SYSADMIN;
+
 DROP DATABASE IF EXISTS LAB_DB;
+
 USE ROLE ACCOUNTADMIN;
+
 DROP WAREHOUSE IF EXISTS ELT_WH;
+
 DROP WAREHOUSE IF EXISTS POWERBI_WH;
 
 Go to Azure and delete the container.
