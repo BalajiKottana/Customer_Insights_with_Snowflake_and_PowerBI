@@ -7,3 +7,5 @@ This is visualization dashboard generated
 
 ![image](https://user-images.githubusercontent.com/122858293/226086337-3ea220ea-de28-4f4b-984f-de919daeb6aa.png)
 
+### Pointer:
+After completing the visualization, to cleanup the resources navagate to "Clean_Up.md"
